@@ -1,0 +1,120 @@
+================
+Inrupt React SDK
+================
+
+Inrupt's provides a Solid React SDK ``solid-ui-react`` to help
+developers create `Solid <https://solidproject.org/>`_ applications.
+
+``solid-ui-react`` consists of:
+
+.. list-table::
+   :widths: 40 60
+
+   * - Authentication components
+   
+     - To help you log in and log out of an identiy provider.
+
+   * - Data components
+
+     - To help you view and edit individual properties or view a
+       sortable and filterable table of multiple things.
+
+   * - Context providers and hooks
+
+     - To help simplify development when using functional programming.
+
+Getting Started
+===============
+
+To get started with Inrupt's Solid React SDK, see:
+
+.. list-table::
+   :widths: 30 70
+
+   * - :doc:`/installation`
+
+     - Install using ``npm``.
+
+   * - `SDK Storybook <https://solid-ui-react.docs.inrupt.com/>`_
+
+     - Play with the Solid React SDK components in Storybook.
+
+       In the Storybook, the Solid React SDK components are grouped
+       into categories; e.g. ``Authentication``, ``Components``, and
+       ``Providers``. Click on a component.
+
+       - The :guilabel:`Canvas` displays a rendered view. The Canvas
+         for a component may also include:
+
+         - :guilabel:`Controls` panel. For components that take
+           arguments, you can update the argument values in the
+           Controls panel and see it rendered in the Canvas.
+         
+         - :guilabel:`Actions` panel. The Actions panel displays a
+           list of callbacks that have occurred; for example, an ``onSave``
+           or ``onError`` event.
+
+         - :guilabel:`Story` panel. The Story panel contains the
+           source of the example.
+
+       - The :guilabel:`Docs` displays documentation for the component,
+         including the code.
+
+       For more information on Storybook, see the `Storybook
+       Documentation at storybook.js.org
+       <https://storybook.js.org/docs/react/get-started/introduction>`_.
+
+   * - :doc:`/application`
+
+     - View sample application that uses the Solid React SDK. 
+
+JavaScript Client Libraries
+===========================
+
+Inrupts Solid React SDK is built on top of the following JavaScript
+client libraries: 
+
+.. list-table::
+   :header-rows: 1
+   :widths: 35 65
+   
+   * - Library
+     - Description
+
+   * - ``solid-client``
+
+     - Inrupt ``solid-client`` is a client library for accessing data
+       stored in Solid Pods.
+ 
+       By default, ``solid-client`` only enables access to public data
+       on Solid Pods.
+
+   * - ``solid-client-authn``
+
+     - Inrupt ``solid-client-authn`` is a set of libraries for
+       authenticating to Solid identity servers.
+
+   * - ``vocab-common-rdf``
+   
+     - Inrupt ``vocab-common-rdf`` is a library that bundles constants
+       that refer to terms in some pre-existing vocabularies . The use
+       of shared vocabularies to identify common data (e.g., ``name``,
+       ``title``, ``address``, ``url``) help interoperability.
+
+For more information, see `Inrupt JavaScript Client Libraries
+<https://docs.inrupt.com/developer-tools/javascript/client-libraries/>`_.
+
+Issues & Help
+=============
+
+.. include:: /includes/table-issues-help.rst
+
+
+.. toctree::
+   :titlesonly:
+   :hidden:
+
+   /installation
+   SDK Storybook <https://solid-ui-react.docs.inrupt.com/>
+   /application
+
