@@ -82,9 +82,8 @@ data:
 
 .. literalinclude:: /appcode/profile.tsx
    :language: text
-   :lines: 22-139
+   :lines: 22-138
    :emphasize-lines: 3-10, 30, 43, 51, 70-74, 79-84
-   :linenos:
 
 (Source: `components/profile/index.tsx
 <https://github.com/inrupt/solid-ui-react-example-project/blob/master/components/profile/index.tsx>`_)
