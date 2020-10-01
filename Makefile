@@ -45,8 +45,8 @@ dirhtml: Makefile  migrate  apps
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 apps: 
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/_app.tsx\?token=AAQHGLGS4LQAPNVYWXNOTXC7OOA52  -o ${APPS_PATH}/app.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/loginForm/index.tsx\?token=AAQHGLABF3EJTPI2HWU735S7ON6QU -o ${APPS_PATH}/loginForm.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/index.tsx\?token=AAQHGLEBZKMTCD3A5JMRBU27ON6K2 -o ${APPS_PATH}/pages.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/profile/index.tsx\?token=AAQHGLCBIFJJEY4FSOCUGEK7ON6M2 -o ${APPS_PATH}/profile.tsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/_app.tsx  -o ${APPS_PATH}/app.tsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/loginForm/index.tsx -o ${APPS_PATH}/loginForm.tsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/index.tsx -o ${APPS_PATH}/pages.tsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/profile/index.tsx -o ${APPS_PATH}/profile.tsx
   
