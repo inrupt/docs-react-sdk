@@ -25,6 +25,7 @@ linkcheck: Makefile migrate
 
 migrate: clean
 	mkdir -p $(SOURCECOPYDIR)
+	mkdir -p $(APPS_PATH)
 
    # Copying to SOURCECOPYDIR instead of copying source dir to BUILDDIR
    # in case someone forgets to backslash after build/
