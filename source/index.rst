@@ -35,7 +35,7 @@ To get started with Inrupt's Solid React SDK, see:
 
      - Install using ``npm``.
 
-   * - `SDK Storybook <https://solid-ui-react.docs.inrupt.com/>`_
+   * - `Componetns API <https://solid-ui-react.docs.inrupt.com/>`_
 
      - Play with the Solid React SDK components in Storybook.
 
@@ -119,6 +119,6 @@ Issues & Help
    :hidden:
 
    /installation
-   SDK Storybook <https://solid-ui-react.docs.inrupt.com/>
+   Components API <https://solid-ui-react.docs.inrupt.com/>
    /application
 
