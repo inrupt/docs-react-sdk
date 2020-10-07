@@ -12,7 +12,7 @@ developers create `Solid <https://solidproject.org/>`_ applications.
 
    * - Authentication components
    
-     - To help you log in and log out of an identiy provider.
+     - To help you log in and log out of an identity provider.
 
    * - Data components
 
@@ -35,7 +35,7 @@ To get started with Inrupt's Solid React SDK, see:
 
      - Install using ``npm``.
 
-   * - `Componetns API <https://solid-ui-react.docs.inrupt.com/>`_
+   * - `Components API <https://solid-ui-react.docs.inrupt.com/>`_
 
      - Play with the Solid React SDK components in Storybook.
 
@@ -75,7 +75,7 @@ To get started with Inrupt's Solid React SDK, see:
 JavaScript Client Libraries
 ===========================
 
-Inrupts Solid React SDK is built on top of the following JavaScript
+Inrupt's Solid React SDK is built on top of the following JavaScript
 client libraries: 
 
 .. list-table::
