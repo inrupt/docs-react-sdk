@@ -1,6 +1,6 @@
 # docs-react-sdk
 
-A repository for Inrupt Solid React SDK documentation
+The repository for Inrupt Solid React SDK documentation
 https://docs.inrupt.com/developer-tools/javascript/react-sdk.
 
 The SDK API documentation, via Storybook, is built separately from the
