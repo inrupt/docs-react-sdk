@@ -1,10 +1,10 @@
 # docs-react-sdk
 
-A repository for drafting technical documentation for Inrupt Solid React SDK.
+A repository for Inrupt Solid React SDK documentation
+https://docs.inrupt.com/developer-tools/javascript/react-sdk.
 
-The repo builds the https://docs.inrupt.com/developer-tools/javascript/react-sdk.
-
-The SDK Storybook is built separately from the manual.
+The SDK API documentation, via Storybook, is built separately from the
+manual.
 
 ## To Build
 
@@ -38,6 +38,10 @@ To build:
    There should be a `build/<branch>/dirhtml` directory with the html artifacts.
 
 When finished, can deactivate your virtual env.
+
+## Copyright
+
+© Copyright 2020-present, Inrupt Inc.
 
 ## Third Party Licenses
 
