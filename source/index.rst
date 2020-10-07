@@ -68,6 +68,10 @@ To get started with Inrupt's Solid React SDK, see:
 
      - View sample application that uses the Solid React SDK. 
 
+   * - `GitHub <https://github.com/inrupt/solid-ui-react>`_
+
+     - View the Solid React SDK source on GitHub.
+
 JavaScript Client Libraries
 ===========================
 
