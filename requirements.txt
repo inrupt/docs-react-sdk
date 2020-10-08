@@ -2,5 +2,5 @@
 
 sphinx-copybutton
 sphinx-tabs
-pydata-sphinx-theme==0.4.0
+pydata-sphinx-theme
 Sphinx
