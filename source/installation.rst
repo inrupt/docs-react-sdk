@@ -13,7 +13,7 @@ Next Steps
 ==========
 
 .. list-table::
-   :width: 30 70
+   :widths: 30 70
 
    * - `Components API <https://solid-ui-react.docs.inrupt.com/>`_
 
