@@ -1,8 +1,8 @@
-================
-Inrupt React SDK
-================
+===============
+Solid React SDK
+===============
 
-Inrupt's provides a Solid React SDK ``solid-ui-react`` to help
+Inrupt provides a Solid React SDK ``solid-ui-react`` to help
 developers create `Solid <https://solidproject.org/>`_ applications.
 
 ``solid-ui-react`` consists of:
@@ -87,23 +87,16 @@ client libraries:
 
    * - ``solid-client``
 
-     - Inrupt ``solid-client`` is a client library for accessing data
-       stored in Solid Pods.
- 
-       By default, ``solid-client`` only enables access to public data
-       on Solid Pods.
+     - A client library for accessing data stored in Solid Pods.
 
    * - ``solid-client-authn``
 
-     - Inrupt ``solid-client-authn`` is a set of libraries for
-       authenticating to Solid identity servers.
+     - A set of libraries for authenticating to Solid identity servers.
 
    * - ``vocab-common-rdf``
    
-     - Inrupt ``vocab-common-rdf`` is a library that bundles constants
-       that refer to terms in some pre-existing vocabularies . The use
-       of shared vocabularies to identify common data (e.g., ``name``,
-       ``title``, ``address``, ``url``) help interoperability.
+     - A library that provides convenience objects for many RDF-related
+       identifiers.
 
 For more information, see `Inrupt JavaScript Client Libraries
 <https://docs.inrupt.com/developer-tools/javascript/client-libraries/>`_.

@@ -2,7 +2,7 @@
 Installation
 ============
 
-You can use `npm <https://www.npmjs.com/>`_ to install the Inrupt Solid
+You can use `npm <https://www.npmjs.com/>`_ to install the Inrupt's Solid
 React SDK ``solid-ui-react``:
 
 .. code-block:: sh
