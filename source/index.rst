@@ -111,6 +111,7 @@ Issues & Help
    :titlesonly:
    :hidden:
 
+   /generator
    /installation
    Components API <https://solid-ui-react.docs.inrupt.com/>
    /application
