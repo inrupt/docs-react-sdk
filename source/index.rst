@@ -31,6 +31,11 @@ To get started with Inrupt's Solid React SDK, see:
 .. list-table::
    :widths: 30 70
 
+   * - :doc:`Explore a Sample Application </application>`
+
+     - Locally set up a provided sample application that uses the Solid
+       React SDK.
+
    * - :doc:`/installation`
 
      - Install using ``npm``.
@@ -64,9 +69,6 @@ To get started with Inrupt's Solid React SDK, see:
        Documentation at storybook.js.org
        <https://storybook.js.org/docs/react/get-started/introduction>`_.
 
-   * - :doc:`/application`
-
-     - View sample application that uses the Solid React SDK. 
 
    * - `GitHub <https://github.com/inrupt/solid-ui-react>`_
 
@@ -111,7 +113,8 @@ Issues & Help
    :titlesonly:
    :hidden:
 
+   Explore a Sample App </application>
    /installation
    Components API <https://solid-ui-react.docs.inrupt.com/>
-   /application
+
 
