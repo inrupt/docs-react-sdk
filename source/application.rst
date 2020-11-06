@@ -5,7 +5,7 @@ Sample Application
 The following outlines how a sample application uses the Inrupt's Solid
 React SDK to log in to a user's Pod and displays the Profile. The
 sample application allows users to view/edit user profile. You can play
-with the application at https://solid-ui-react-example.docs.inrupt.com/.
+with the application at https://react-demo.docs.inrupt.com/.
 
 Session Provider
 ================
