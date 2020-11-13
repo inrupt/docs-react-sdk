@@ -116,5 +116,6 @@ Issues & Help
    Explore a Sample App </application>
    /installation
    Components API <https://solid-ui-react.docs.inrupt.com/>
+   /release-notes
 
 
