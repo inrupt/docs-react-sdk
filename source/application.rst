@@ -27,13 +27,29 @@ To set up the sample application locally,
 
      When prompted for the project name, either accept the default or
      enter a new name.
+     
+#. Go to your project directory, substituting your project name for
+   ``<app-name>`` (e.g., ``my-app``, etc.):
+
+   .. code-block:: sh
+
+      cd <app-name>
+
+#. Optional. `Next.js <https://nextjs.org/telemetry>`_ collects
+   anonymous telemetry data. To opt out, run the following in the root of
+   your project directory
+
+   .. code-block:: sh
+   
+      npx next telemetry disable
 
 #. After you have set up the project, go to the project directory and
    run either:
 
    .. code-block:: sh
 
-      npm ci && npm run dev
+      npm ci
+      npm run dev
 
    or
 
