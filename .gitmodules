@@ -1,0 +1,4 @@
+[submodule "docs-assets"]
+	path = docs-assets
+	url = git@github.com:inrupt/docs-assets.git
+	branch = main
