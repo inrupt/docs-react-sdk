@@ -29,7 +29,7 @@ To build:
    pip install -r requirements.txt
    ```
 
-1. Make the docs. The makefile updates the submodule as part of the build.
+1. Make the docs.
 
    ```sh
    make dirhtml
