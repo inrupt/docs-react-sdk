@@ -29,12 +29,6 @@ To build:
    pip install -r requirements.txt
    ```
 
-1. Init submodule if you have not.
-
-   ```sh
-   git submodule init
-   ```
-   
 1. Make the docs. The makefile updates the submodule as part of the build.
 
    ```sh
@@ -50,5 +44,5 @@ When finished, can deactivate your virtual env.
 ## Third Party Licenses
 
 The `requirements.txt` lists the 3rd party libraries used. For the
-licenses, see the submodule
+licenses, see the shared
 [inrupt/docs-assets](https://github.com/inrupt/docs-assets#readme).
