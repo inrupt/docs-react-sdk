@@ -50,8 +50,9 @@ dirhtml: Makefile  migrate  apps
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 apps: 
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/_app.tsx  -o ${APPS_PATH}/app.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/loginForm/index.tsx -o ${APPS_PATH}/loginForm.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/pages/index.tsx -o ${APPS_PATH}/pages.tsx
-	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-example-project/master/components/profile/index.tsx -o ${APPS_PATH}/profile.tsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-demo/main/components/appContainer/index.jsx -o ${APPS_PATH}/appContainer.jsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-demo/main/pages/index.jsx -o ${APPS_PATH}/pages.jsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-demo/main/components/loginForm/index.jsx -o ${APPS_PATH}/loginForm.jsx
+	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-demo/main/components/profile/index.jsx -o ${APPS_PATH}/profile.jsx
+
   
