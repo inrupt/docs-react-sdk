@@ -58,8 +58,8 @@ extensions = [
 ]
 
 extlinks = {
-    'apisolidclient': ('https://docs.inrupt.com/developer-tools/api/javascript/solid-client%s',''),
-    'apisolidauthnbrowser': ('https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser%s',''),
+    'apisolidclient': ('https://docs.inrupt.com/developer-tools/api/javascript/solid-client-upcoming%s',''),
+    'apisolidauthnbrowser': ('https://docs.inrupt.com/developer-tools/api/javascript/solid-client-authn-browser-upcoming%s',''),
     'sdkreact': ('https://solid-ui-react.docs.inrupt.com/?%s',''),
     
 }
@@ -93,12 +93,10 @@ html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
     'banner': False,
     'banner_msg': '',
-    'robots_index': True,
+    'robots_index': False,
     'github_editable': False,
-    'docs_project': 'developer-tools/javascript/react-sdk',
-    # 'github_org': 'inrupt',
-    # 'github_repo': 'docs-client-lib-js',
-    # 'github_branch': 'master',
+    'docs_project': 'developer-tools/javascript/react-sdk-upcoming',
+
 
     
     # below are pydata_sphinx_theme
@@ -106,19 +104,19 @@ html_theme_options = {
     "navbar_align": "left",
     "icon_links": [
         {
-            "name": "Inrupt on Twitter",
-            "url": "https://twitter.com/inrupt",
-            "icon": "fab fa-twitter-square",
-        },
-        {
-            "name": "Inrupt on LinkedIn",
-            "url": "https://www.linkedin.com/company/inrupt/",
-            "icon": "fab fa-linkedin",
+            "name": "Support Desk",
+            "url": "https://inrupt.atlassian.net/servicedesk",
+            "icon": "fas fa-tools",
         },
         {
             "name": "Solid forum",
             "url": "https://forum.solidproject.org/",
             "icon": "fas fa-users",
+        },
+        {
+            "name": "Inrupt Blog",
+            "url": "https://inrupt.com/blog",
+            "icon": "fas fa-blog",
         },
     ],
     "favicons": [
