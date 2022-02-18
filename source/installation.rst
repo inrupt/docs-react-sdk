@@ -15,7 +15,7 @@ Next Steps
 .. list-table::
    :widths: 30 70
 
-   * - `Components API <https://solid-ui-react.docs.inrupt.com/>`_
+   * - :sdkreact:`Components API </>`
 
      - Play with the Solid React SDK components.
      
