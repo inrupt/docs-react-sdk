@@ -40,7 +40,7 @@ To get started with Inrupt's Solid React SDK, see:
 
      - Install using ``npm``.
 
-   * - `Components API <https://solid-ui-react.docs.inrupt.com/>`_
+   * - :sdkreact:`Components API </>`
 
      - Play with the Solid React SDK components in Storybook.
 
