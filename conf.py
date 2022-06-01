@@ -91,8 +91,8 @@ html_title = 'Inrupt {0}'.format(name)
 
 html_theme_options = {
     'project_title': 'Inrupt {0}'.format(name),
-    'banner': False,
-    'banner_msg': '',
+    'banner': True,
+    'banner_msg': 'The Alpha Preview documentation is obsolete.  Please refer to the <a href="https://docs.inrupt.com/developer-tools/javascript/react-sdk/">latest Solid React SDK documentation</a>.',
     'robots_index': False,
     'github_editable': False,
     'docs_project': 'developer-tools/javascript/react-sdk-upcoming',
