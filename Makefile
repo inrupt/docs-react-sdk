@@ -16,7 +16,7 @@ DOCS_ASSETS   = build/docs-assets
 help:
 	@$(SPHINXBUILD) -M help "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-.PHONY: help clean Makefile migrate html linkcheck dirhtml apps
+.PHONY: help clean Makefile migrate html linkcheck dirhtml apps tempFix
 
 clean:
 	if [ -d $(BUILDDIR) ]; then rm -rf $(BUILDDIR) ; fi;
@@ -36,11 +36,11 @@ migrate: clean
 
 	cp -R $(SOURCEDIR)/* $(SOURCECOPYDIR)
 
-html: Makefile migrate apps
+html: Makefile migrate apps tempFix
 
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) 
 
-dirhtml: Makefile  migrate  apps
+dirhtml: Makefile  migrate  apps tempFix
 
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
@@ -48,6 +48,15 @@ dirhtml: Makefile  migrate  apps
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile migrate apps
 	@$(SPHINXBUILD) -M $@ "$(SOURCECOPYDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+tempFix: apps
+	
+ifdef IS_MAC
+	sed -i '' -e 's/broker\.pod\./login\./g' ${APPS_PATH}/loginForm.jsx;
+	
+else
+	sed -i  -e 's/broker\.pod\./login\./g' ${APPS_PATH}/loginForm.jsx;
+endif
 
 apps: 
 	curl -SfL https://raw.githubusercontent.com/inrupt/solid-ui-react-demo/main/components/appContainer/index.jsx -o ${APPS_PATH}/appContainer.jsx
