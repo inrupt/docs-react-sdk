@@ -129,9 +129,6 @@ html_theme_options = {
          "href": "https://docs.inrupt.com/inrupt_stickers_v2-03.png",
         },
     ],
-    "analytics": {
-        "google_analytics_id": "UA-255015465-1",
-    }
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
